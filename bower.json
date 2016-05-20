@@ -6,7 +6,7 @@
     "RexCorpDev <rexcorpfx@gmail.com>"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/RexCorpDev/photoalbumfe",
+  "homepage": "https://github.com/RexCorpDev/PhotoAlbum",
   "ignore": [
     "**/.*",
     "node_modules",
