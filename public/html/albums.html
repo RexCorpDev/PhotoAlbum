@@ -1,0 +1,24 @@
+<div class="container-fluid" ng-controller='albumsCtrl'>
+  <div class="form-group">
+    <div class="col-xs-6 col-xs-offset-3">
+      <h3>Albums</h3>
+      <div ng-if='upload-image' class="text-center">
+        <label for="local-file">Image</label>
+        <input ng-model='image.url' type="text" class="form-control " placeholder="Image Url">
+        <form>
+          <fieldset class="form-group">
+            <input ng-model='image.upload' type="file" class="form-control-file" id="local-file">
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="local-file">Description</label>
+            <input ng-model='image.desc' type="text" class="form-control " placeholder="Image Url">
+          </fieldset>
+
+
+          <button type='submit' class='btn btn-default btn-lg' ng-click='cancel()'>Cancel</button>
+          <button type='submit' class='btn btn-primary btn-lg' ng-click='upload(image)'>Upload</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
